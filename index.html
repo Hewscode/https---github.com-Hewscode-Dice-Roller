@@ -30,16 +30,17 @@
         <h1>Hello and Welcome to my Dice Roller game</h1>
 
         <h2>Will you flip a coin? Or roll one of our crazy dice!</h2>
-
-        <select name="dice" id="dice" py-change="select_face_option">
-            <option value="2">2-sided</option>
-            <option value="4">4-sided</option>
-            <option value="6">6-sided</option>
-            <option value="8">8-sided</option>
-            <option value="10">10-sided</option>
-            <option value="20">20-sided</option>
-            <option value="100">100-sided</option>
-        </select>
+        <div class="DiceDropBoxMenu">
+            <select name="dice" id="dice" py-change="select_face_option">
+                <option value="2">2-sided</option>
+                <option value="4">4-sided</option>
+                <option value="6">6-sided</option>
+                <option value="8">8-sided</option>
+                <option value="10">10-sided</option>
+                <option value="20">20-sided</option>
+                <option value="100">100-sided</option>
+            </select>
+        </div>
 
         <button type="button" py-click="roll_all_dice">roll it</button>
 

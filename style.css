@@ -19,3 +19,7 @@ button {
     color: lightslategray; float: center; text-align: center; 
     border: 50px; border-radius: 10px; border-color: white;
 }
+.DiceDropBoxMenu {
+    text-align: center;
+    justify-content: center;
+}
