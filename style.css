@@ -12,5 +12,5 @@ h2 {
 
 select {
     color: chocolate; float: center; text-align: center; 
-    border: 5px; border-radius: 2px;
+    border: 5px; border-radius: 2px; border-color: crimson;
 }
