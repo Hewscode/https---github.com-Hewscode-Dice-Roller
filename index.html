@@ -28,7 +28,7 @@
         <dialog id="loading"><h1>Loading python environment...</h1></dialog>
         <!-- Start of your code -->
         <h1>Welcome to my Dice Roller game</h1>
-        
+
         <h2>Will you flip a coin or roll a dice??</h2>
 
         <select name="dice" id="dice" py-change="select_face_option">
@@ -39,16 +39,12 @@
             <option value="10">10-sided</option>
             <option value="20">20-sided</option>
             <option value="100">100-sided</option>
-        </select> 
+        </select>
 
+        <button type="button" py-click="roll_all_dice">roll it</button>
 
-
-
-
-
-
-
-    <button type="button" py.click="clear_hisory"></button>
+        <div id="roll_history">roll history</div>
+        <button type="button" py.click="clear_hisory"></button>
         
         <!-- End of your code -->
         <script type="py" src="main.py" config="./pyscript.json"></script>
