@@ -17,7 +17,7 @@ def roll_all_dice(event):
     global dice_type  # use global var named dice_type
     ...  # replace with your own code
     result = dice.dice_roll(dice_type)
-    document.querySelector("div#roll-history").innerHTML = "<p id='something'>" + str(result) +"</p>"
+    document.querySelector("div#roll-history").innerHTML += "<p id='something'>" + str(result) +"</p>"
 
 def clear_history(event):
     # this finds the div tag with id attribute 'roll-history' and clears whatever is inside
