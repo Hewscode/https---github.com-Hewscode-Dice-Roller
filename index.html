@@ -28,10 +28,18 @@
         <dialog id="loading"><h1>Loading python environment...</h1></dialog>
         <!-- Start of your code -->
         <h1>Welcome to my Dice Roller game</h1>
-        <h2>Will you flip a coin or roll a dice??</h2>
-        <select>"2-sided", "4-sided", "6-sided", "8-sided", 
-         "10-sided", "20-sided", "100-sided"</select>
         
+        <h2>Will you flip a coin or roll a dice??</h2>
+
+        <select name="dice" id="dice" py-change="select_face_option">
+            <option value="2">2-sided</option>
+            <option value="4">4-sided</option>
+            <option value="6">6-sided</option>
+            <option value="8">8-sided</option>
+            <option value="10">10-sided</option>
+            <option value="20">20-sided</option>
+            <option value="100">100-sided</option>
+        </select> 
 
 
 
