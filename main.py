@@ -6,7 +6,8 @@ import random
 
 # GLOBAL (script-wide) variable
 # this stores the selected face option from the drop-down list
-dice_type = "Coin"
+dice_type = "2 face Coin" ,"4 face dice" ,"6 face dice" ,"8 face dice" ,
+"10 face dice" ,"20 face dice" , "100 face dice"
 
 
 def select_face_option(event):
