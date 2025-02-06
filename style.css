@@ -1,21 +1,21 @@
 body {
-    color: grey;
+    color: black;
 }
 
 h1 {
-    color: chocolate; text-align: center;
+    color: lightslategray; text-align: center;
     border-bottom: 10px;
 }
 
 h2 {
-    color: chocolate; text-align: center;
+    color: lightslategray; text-align: center;
 }
 
 select {
-    color: chocolate; float: center; text-align: center; 
+    color: lightslategray; float: center; text-align: center; 
     border: 50px; border-radius: 10px; border-color: brown;
 }
 button {
-    color: red; float: center; text-align: center; 
-    border: 50px; border-radius: 10px; border-color: brown;
+    color: lightslategray; float: center; text-align: center; 
+    border: 50px; border-radius: 10px; border-color: white;
 }
