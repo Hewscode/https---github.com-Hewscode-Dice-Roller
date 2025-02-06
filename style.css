@@ -11,5 +11,6 @@ h2 {
 }
 
 select {
-    color: chocolate; float: center;
+    color: chocolate; float: center; text-align: center; 
+    border: 5px; border-radius: 2px;
 }
