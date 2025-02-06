@@ -14,3 +14,6 @@ select {
     color: chocolate; float: center; text-align: center; 
     border: 50px; border-radius: 10px; border-color: crimson;
 }
+button {
+    color: red; text-align: center; 
+}
