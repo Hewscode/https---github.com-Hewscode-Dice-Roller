@@ -12,12 +12,20 @@ h2 {
 }
 
 select {
-    color: lightslategray; float: center; text-align: center; 
-    border: 50px; border-radius: 10px; border-color: brown;
+    color: lightslategray; 
+    text-align: center; 
+
+    border: 50px; 
+    border-radius: 10px; 
+    border-color: brown;
+    background-color: rgba(red, green, blue, alpha);
 }
 button {
-    color: lightslategray; float: center; text-align: center; 
-    border: 50px; border-radius: 10px; border-color: white;
+    color: lightslategray; 
+    text-align: center; 
+    
+    border: 50px solid white; 
+    border-radius: 10px; 
 }
 .DiceDropBoxMenu {
     text-align: center;
