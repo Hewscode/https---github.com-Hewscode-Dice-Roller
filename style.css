@@ -1,33 +1,39 @@
 body {
-    color: black;
+    background-color: burlywood;
 }
 
 h1 {
-    color: lightslategray; text-align: center;
+    color: lightslategray;
+    text-align: center;
     border-bottom: 10px;
 }
 
 h2 {
-    color: lightslategray; text-align: center;
+    color: lightslategray;
+    text-align: center;
 }
 
 select {
-    color: lightslategray; 
-    text-align: center; 
+    color: darkgreen;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 40%);
+    background-color: chocolate; background-position: center;
+}
 
-    border: 50px; 
-    border-radius: 10px; 
-    border-color: brown;
-    background-color: rgba(red, green, blue, alpha);
-}
 button {
-    color: lightslategray; 
-    text-align: center; 
-    
-    border: 50px solid white; 
-    border-radius: 10px; 
+    color: darkgreen;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 40%);
+    background-color: chocolate; background-position: center;
 }
-.DiceDropBoxMenu {
+.DiceDropBoxMenus {
     text-align: center;
     justify-content: center;
+    border-color: rgba(0, 0, 0, 0%);
+    border-radius: 10px;
+}
+#roll-history {
+    color: darkblue;
 }
