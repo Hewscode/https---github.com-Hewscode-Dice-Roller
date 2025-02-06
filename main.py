@@ -13,7 +13,7 @@ dice_type = "2-sided", "4-sided", "6-sided", "8-sided",
 def select_face_option(event):
     global dice_type  # use global var named dice_type
     ...  # replace with your own code
-    
+
     dice_type = int(event.target.value)
 
 def roll_all_dice(event):
