@@ -16,8 +16,12 @@ def select_face_option(event):
 def roll_all_dice(event):
     global dice_type  # use global var named dice_type
     ...  # replace with your own code
-    result = dice.dice_roll(dice_type)
-    document.querySelector("div#roll-history").innerHTML += "<p id='something'>" + str(result) +"</p>"
+    number_of_dice = int(document.querySelector("#number-of-dice").value)
+
+    for i in range(int(number_of_dice)):
+        result = dice.dice_roll(dice_type)
+        previous_results = document.querySelector("div#roll-history").innerHTML
+        document.querySelector("div#roll-history").innerHTML = "<p id='something'>" + str(result) +"</p>" + previous_results
 
 def clear_history(event):
     # this finds the div tag with id attribute 'roll-history' and clears whatever is inside

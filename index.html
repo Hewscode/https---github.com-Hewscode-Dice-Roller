@@ -31,7 +31,7 @@
 
         <h2>Will you flip a coin? Or roll one of our crazy dice!<br>
             You choose! Best of luck. Your going to need it!</h2>
-        <div class="DiceDropBoxMenus">
+        <div class="DiceControlMenus">
             <select name="dice" id="dice" py-change="select_face_option">
                 <option value="2">2-sided</option>
                 <option value="4">4-sided</option>
@@ -41,12 +41,11 @@
                 <option value="20">20-sided</option>
                 <option value="100">100-sided</option>
             </select>
-
-
+            <input type="number" id="number-of-dice" name="number-of-dice"/>
+            <button type="button" py-click="clear_history">clear history</button>
             <button type="button" py-click="roll_all_dice">roll it</button>
 
             <div id="roll-history">roll history</div>
-            <button type="button" py-click="clear_history">clear history</button>
         </div>
         <!-- End of your code -->
         <script type="py" src="main.py" config="./pyscript.json"></script>

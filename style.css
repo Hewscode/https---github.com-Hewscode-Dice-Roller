@@ -1,39 +1,55 @@
 body {
+    background-image: url("images/dice_pic1.jpg");
+    background-size: cover;
     background-color: burlywood;
 }
 
 h1 {
+    font-style: oblique;
     color: lightslategray;
     text-align: center;
-    border-bottom: 10px;
+    border-bottom: 10px wave;
 }
 
 h2 {
+    font-style: italic;
     color: lightslategray;
     text-align: center;
 }
 
 select {
+    font-weight: bold;
     color: darkgreen;
     text-align: center;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 40%);
-    background-color: chocolate; background-position: center;
+    border-radius: 10px;/* THIS IS SOMETHING WORTH REMEMBERING */
+    border-color: rgb(0, 0, 0);
+    background-color: chocolate;
+    background-position: center;
 }
 
 button {
+    font-weight: bold;/* THIS IS SOMETHING WORTH REMEMBERING */
     color: darkgreen;
     text-align: center;
     border-radius: 10px;
-    border-color: rgba(0, 0, 0, 40%);
-    background-color: chocolate; background-position: center;
+    border-color: rgb(0, 0, 0);
+    background-color: chocolate;
+    background-position: center;
 }
-.DiceDropBoxMenus {
+
+.DiceControlMenus {
+    margin:auto;/* THIS IS SOMETHING WORTH REMEMBERING */
+    font-style: inherit;
     text-align: center;
     justify-content: center;
-    border-color: rgba(0, 0, 0, 0%);
     border-radius: 10px;
+    border: 5px rgb(0,0,0) groove;
+    width: 10%;
+    background-color: darkgray;
 }
+
 #roll-history {
-    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
 }
