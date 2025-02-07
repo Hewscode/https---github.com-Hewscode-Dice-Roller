@@ -46,6 +46,8 @@ button {
     border: 5px rgb(0,0,0) groove;
     width: 10%;
     background-color: darkgray;
+    border: 2px black solid;
+    border-radius: 10px;
 }
 
 #roll-history {
@@ -55,4 +57,6 @@ button {
 }
 input {
     background-color: darkgray;
+    border: 2px black solid;
+    border-radius: 10px;
 }
